@@ -1,38 +1,25 @@
-.App {
+body {
+  background: url('./images/map-of-the-world-bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
   text-align: center;
+  margin: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  background-color: rgba(72, 122, 151, 0.849);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tbody tr:hover {
+  background-color: rgba(39, 86, 114, 0.479);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.flag {
+  width: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 800px) {
+  th {
+    overflow: hidden;
   }
 }
