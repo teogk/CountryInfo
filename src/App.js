@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import SearchForm from './components/SearchForm';
+import SearchForm from './components/searchForm/SearchForm';
 import axios from 'axios';
 
 class App extends React.Component {
@@ -41,8 +41,8 @@ class App extends React.Component {
                     <th>Capital</th>
                     <th>Region</th>
                     <th>Population</th>
-                    <th>Currencies</th>
-                    <th>Languages</th>
+                    <th>Currency</th>
+                    <th>Language</th>
                   </tr>
                 </thead>
                 <tbody>
